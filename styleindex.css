@@ -1,0 +1,201 @@
+.logo{
+    text-align: center;
+    
+}
+.logo img {
+    height:  100%;
+}
+.menu{
+    display: flex;
+    background-color: #2EC5C0;
+    width: 100%;
+    justify-content: center;
+}
+.menu ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    
+}
+.menu li a:hover {
+    color: #ED4E54;
+}
+.content-first{
+    margin-top: 10px;
+    display: flex;
+    background-color: #F4F4F4 ;
+}
+.content-first-detail{
+    margin-top: 10%;
+    width: 50%;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.content-first-title{
+    
+    text-align: end;
+    justify-content: end;
+    margin-right: 10px;
+}
+.content-first-detail h1 {
+    width: 100%;
+    
+}
+.line-stick{
+    position: absolute;
+    right: 50%;
+
+    color: #2EC5C0;
+    line-height: 10px;
+    background-color: #2EC5C0;
+    width:10%;
+    
+
+}
+.content-first-banner{
+    width: 50%;
+}
+.content-first-banner img{
+    width: 100%;
+}
+.content-second-title{
+    display: flex;
+}
+.content-second-title h1 {
+    width: 100%;
+    flex-wrap: nowrap;
+    padding:20px 10%;
+    color: #2EC5C0;
+}
+.content-second{
+    display: flex;
+}
+.content-second-seller{
+    display: flex;
+    margin-right: 20px;
+}
+.content-second-seller .detail {
+    background-color: #F4F4F4;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.price {
+    color: #ED4E54;
+}
+.price del {
+    color: #D3D3D3;
+}
+.buynow{
+    cursor: pointer;
+    margin: 10px 35%;
+    padding: 18px;
+    width: 20%;
+    background-color: #F37D15;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.content-second-saleoff table{
+    
+    line-height: 30px;
+    width: 120%;
+    height: 100%;
+    margin-left: 20px;
+    
+}
+.content-second-saleoff th{
+    border: 1px solid #000;
+    background-color: #2EC5C0;
+    margin: 0;
+    padding: 0;
+}
+.content-second-saleoff td{
+    border: 1px solid #000;
+    
+
+}
+.content-last {
+    margin-top: 30px;
+    background-color:#F4F4F4;
+    padding: 10px;
+}
+.content-last h1{
+    text-align: center;
+    color: #2EC5C0;
+}
+.content-last-detail{
+    display: flex;
+    font-size: 20px;
+}
+
+.content-last-banner{
+    width: 40%;
+    padding-right: 10px;
+}
+.content-first-banner img {
+    width: 100%;
+}
+.content-last-form {
+    display: flex;
+    width: 100%;
+    margin-left: 15%;
+}
+.content-last-form label{
+    color: #F37D15;
+    text-align: start;
+}
+.content-last-form p {
+    text-align: center;
+}
+.line-form {
+    line-height: 50px;
+}
+.content-last-form .fill {
+    margin-left: 5.3%;
+    text-align: end;
+    width: 70%;
+    justify-content: end;
+}
+.content-last-form .fill2 {
+    margin-left: 8.5%;
+    text-align: end;
+    width: 70%;
+    justify-content: end;
+}
+.content-last-form .fill1 {
+    margin-left: 2.5%;
+    text-align: end;
+    width: 70%;
+    justify-content: end;
+}
+.buton-all {
+    margin-left: 34%;
+}
+
+.buton{
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #F37D15;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #2EC5C0;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-top: 20px;
+}
